@@ -1,6 +1,6 @@
 import '../App.css';
 
-import Level from "../components/Level";
+import Level from "../components/Level";//level label fix
 import Tools from "../components/Tools";
 import Wallet from "../components/Wallet";
 import Friends from "../components/Friends";
