@@ -1,7 +1,7 @@
 
 import './App.css';
-import React from "react";
-import FirstPage from "./pages/FirstPage";
+import React from "react";//call the library
+import FirstPage from "./pages/FirstPage";//page commponert
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 const App = () => {
