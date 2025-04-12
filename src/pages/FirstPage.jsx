@@ -7,7 +7,7 @@ import Friends from "../components/Friends";
 import SecretCode from "../components/SecretCode";
 import UpPage from "../components/UpPage";
 import Animation from '../components/Animation'
-import { useState } from 'react';
+import { useState } from 'react';//call the react library
 
 const Firstpage = () => {
   const [step, setStep] = useState(1)
