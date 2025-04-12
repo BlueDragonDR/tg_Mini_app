@@ -60,7 +60,7 @@ const Firstpage = () => {
             src="./assets/arrow.png"
             alt="1"
             className="w-full h-full absolute scale-50 hover:scale-75 transition-transform duration-200"
-            onClick={handleClick}
+            onClick={handleClick}//apear the event on click
           />
         </div>
       </div>
