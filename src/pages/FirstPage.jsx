@@ -14,7 +14,7 @@ const Firstpage = () => {
   const handleClick = () => {
     const nextStep = step === 3 ? 1 : step + 1  // Loop between 1, 2, 3
     setStep(nextStep)
-    console.log('Current Step:', nextStep)
+    console.log('Current Step:', nextStep)//consol
   }
   return (
     <div className="w-screen h-screen max-w-screen max-h-screen overflow-hidden flex flex-col"
@@ -85,7 +85,7 @@ const Firstpage = () => {
               <div className="flex flex-col items-center gap-[10px] text-[10px]">
                 <div>HOME</div>
                 <img
-                  src="./assets/HOME.png"
+                  src="./assets/HOME.png"//image position
                   alt="1"
                   className="w-[50px] h-[68px] scale-100 hover:scale-125 transition-transform duration-200"
                 ></img>
