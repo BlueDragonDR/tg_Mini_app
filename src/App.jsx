@@ -2,13 +2,13 @@
 import './App.css';
 import React from "react";//call the library
 import FirstPage from "./pages/FirstPage";//page commponert
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { BrowserRouter, Route, Routes } from "react-router-dom";//call the library to build
 
 const App = () => {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="" element={<FirstPage />} />
+        <Route path="" element={<FirstPage />} /> 
       </Routes>
     </BrowserRouter>
   );
