@@ -6,18 +6,18 @@ import { SceneModel } from './SceneModel'
 export default function Animation(props) {
   const step = props.step
 
-  const [modelPath, setModelPath] = useState('/Jeep copy.gltf')
+  const [modelPath, setModelPath] = useState('/Jeep copy.gltf')//convert 3d models
   const [modelScale, setModelScale] = useState(5)
 
   useEffect(() => {
     if (step === 1) {
-      setModelPath('/Jeep copy.gltf')
+      setModelPath('/Jeep copy.gltf')//jeep car
       setModelScale(3.3)
     } else if (step === 2) {
-      setModelPath('/bugatti_copy.gltf')
+      setModelPath('/bugatti_copy.gltf')//bugtti car
       setModelScale(5)
     } else if (step === 3) {
-      setModelPath('/monster_car_blue.gltf')
+      setModelPath('/monster_car_blue.gltf')//monster car
       setModelScale(3.5)
     }
   }, [step])
