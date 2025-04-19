@@ -1,7 +1,7 @@
 const UpPage = () => {
     return (
         <div className="w-full h-full">
-            <div className="flex flex-row items-center pt-[45px] px-[16px] gap-[4px] relative">
+            <div className="flex flex-row items-center pt-[45px] px-[16px] gap-[4px] relative">//have to adjust the top padding parameter matching the ld player screen size
                 <div className="w-[155px] h-[200px] absolute top-0 left-[98px]">
                     <img
                         src="./assets/20.png"
