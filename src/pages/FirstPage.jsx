@@ -39,7 +39,7 @@ const Firstpage = () => {
         <UpPage />
       </div>
       <div className="w-full,  flex flex-col pt-[155px]" >
-        <Level />
+        <Level />// we have to keep on the sync at the components of the same level.
         <Tools />
       </div>
       <Wallet />
